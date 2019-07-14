@@ -4,6 +4,7 @@
   "description": "Projeto de Teste",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +17,16 @@
     "library"
   ],
   "author": "Wescley Martins <wescleymartins02@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/martins-wescley/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/martins-wescley/js-tdd-course#readme"
+  "homepage": "https://github.com/martins-wescley/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "husky": "^3.0.0"
+  },
+  "dependencies": {}
 }
