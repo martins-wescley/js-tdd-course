@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>06 - Uses Template Literals</title>
+  </head>
+  <body>
+
+  </body>
+
+  <script>
+
+    //Permite concatenar strings de uma maneira muito mais fácil
+    const ireland = {
+      live: `Dublin`,
+      love: `Galway`
+    };
+
+    const text = 'Eu moro em ' + ireland.live + ' e sou apaixonado por ' + ireland.love+'!';
+
+    const newText = `Eu moro em ${ireland.live} e sou apaixonado por ${ireland.love}!`
+
+    const fruits =
+    `banana
+    orange
+    apple`;
+
+    console.log(fruits);
+  </script>
+</html>
